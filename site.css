@@ -1,0 +1,37 @@
+:root{
+    --black: #222831;
+    --gray: #393E46;
+    --blue: #00ADB5;
+    --white: #EEEEEE;
+    --red: #FF2E63;
+}
+
+#container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--red);
+}
+
+a:visited{
+    color: var(--gray);
+}
+a:visited:hover{
+    color: var(--red);
+}
