@@ -1,0 +1,41 @@
+h1, h3, figure{
+    text-align: center;
+}
+
+h1, h3, figcaption{
+    color: rgba(60, 179, 113);
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+figcaption{
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.grid-item{
+    border: 1px solid rgba(60, 179, 113);
+}
+
+#homepage-link{
+    margin-top: 10%;
+    text-decoration: none;
+    float: right;
+}
+
+#homepage-link:hover{
+    text-decoration: underline;
+}
+
+
+
