@@ -1,0 +1,34 @@
+<!-- Zachary Maziarz - Assignment 2.2  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="author" content="Zachary Maziarz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment 2.2">
+    <link rel="stylesheet" href="maziarz_mod2_2.css">
+    <script>
+        var firstVariable = "ground";
+        var secondVariable = "forsake";
+        var thirdVariable = "shields";
+        var fourthVariable = "fight";
+    </script>
+    <title>CSD 340 Development with HTML and CSS</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <p>Aragorn's Speech at the Black Gate</p>
+        <p>Hold your <span id="ground">_________</span>! Hold your ground! Sons of Gondor, of Rohan, my brothers,</p>
+        <p>I see in your eyes the same fear that would take the heart of me. A day may come when the courage of men fails, when we <span id="forsake">_________</span> our friends and break all bonds of fellowship,</p>
+        <p>but it is not this day. An hour of wolves and shattered <span id="shields">_________</span>, when the age of men comes crashing down, but it is not this day!</p>
+        <p>This day we <span id="fight">_________</span>!!! By all that you hold dear on this good Earth, I bid you stand, Men of the West!!!</p>
+    </div>
+    <button onclick="document.getElementById('fight').innerHTML=fourthVariable">fight</button>
+    <button onclick="document.getElementById('ground').innerHTML=firstVariable">ground</button>
+    <button onclick="document.getElementById('shields').innerHTML=thirdVariable">shields</button>
+    <button onclick="document.getElementById('forsake').innerHTML=secondVariable">forsake</button>
+</body>
+</html>
